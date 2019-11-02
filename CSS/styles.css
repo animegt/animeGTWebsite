@@ -22,7 +22,7 @@ h3 {
 
 @media screen and (max-width: 767px) {
     #l {
-        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
   body {
     text-align: center;
@@ -36,10 +36,10 @@ h3 {
 
 #lol {
     position: absolute;
-    right: 5%;
+    right: 15%;
     margin: 2rem auto;
     text-align: center;
-    width: 90%;
+    width: 70%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -47,7 +47,8 @@ h3 {
 
 #lel {
     position: relative;
-    width: 90%;
+    width: 70%;
+        margin:0;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
