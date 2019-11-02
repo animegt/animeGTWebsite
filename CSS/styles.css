@@ -118,10 +118,9 @@ h3 {
 
 /* second Section */
 
-#second {
-    margin-top: 5rem;
+#footer {
     background-color: rgb(40 40 41);
-    padding:1rem 0rem;
+    padding:1rem 0;
 }
 
 .a {
@@ -131,3 +130,20 @@ h3 {
 }
 
 
+/* second Section */
+
+ #status {
+    text-align: center;
+    margin-top: 5rem;
+    padding:3rem 0rem;
+    background: rgb(24 25 24);
+ }
+
+#status p {
+    margin-top: 0.5rem;
+}
+
+/* fourth Section */
+
+#fourth {
+}
