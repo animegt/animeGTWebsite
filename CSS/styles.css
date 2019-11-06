@@ -20,6 +20,11 @@ h3 {
     font-size: 3rem;
 }
 
+.hld {
+    overflow: hidden;
+
+}
+
 @media screen and (max-width: 767px) {
     #l {
         margin-top: 2rem;
