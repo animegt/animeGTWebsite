@@ -20,11 +20,6 @@ h3 {
     font-size: 3rem;
 }
 
-.hld {
-    overflow: hidden;
-
-}
-
 @media screen and (max-width: 767px) {
     #l {
         margin-top: 2rem;
@@ -123,9 +118,21 @@ h3 {
 
 /* second Section */
 
-#footer {
+#second {
+    margin-top: 5rem;
     background-color: rgb(40 40 41);
-    padding:1rem 0;
+    padding:1rem 0rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#second2 {
+    margin-top: 5rem;
+    background-color: rgb(40 40 41);
+    padding:1rem 0rem;
+    opacity: 0;
 }
 
 .a {
@@ -134,21 +141,3 @@ h3 {
     text-align:center;
 }
 
-
-/* second Section */
-
- #status {
-    text-align: center;
-    margin-top: 5rem;
-    padding:3rem 0rem;
-    background: rgb(24 25 24);
- }
-
-#status p {
-    margin-top: 0.5rem;
-}
-
-/* fourth Section */
-
-#fourth {
-}
