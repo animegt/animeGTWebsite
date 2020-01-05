@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/405f33488c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+<body>
+  <div> <div class="circle"></div></div>
+  <div style="min-height: 100vh; position: relative;">
+  <div class="nav-bar">
+    <div class="holder" style="background: transparent;">
+      <a href="/index"><h1 class="nav-title">AnimeGT</h1></a>
+    </div>
+  </div>
+
+  <section id="first" style="margin-bottom:  -6rem;">
+        <div class="holder">
+          <div class="row align-items-center">
+            <h3 style="padding-left: 1rem;">English</h3>
+            <div style="padding: 1.5rem;">
+              <p>1. Animegt will adapt the source that you selected and will find every anime & servers of it.</p>
+              <p>2. You can change sources trough the world icon on the main page.</p>
+              <p>3. If you change the source the animes on your favorites will not change the source from where you add them, the little letters above the title indicates the source.</p>
+              <p>4. Each source has its own animes & servers, If you dont find an anime you can change the source and search it again, if you still dont find it try using it's japanese name.</p>
+              <p>5. If the app doesn't search or show anything that means that your current source it`s not available and you should change it following the instructions above.</p>
+            </div>
+            <h3 style="padding-left: 1rem;">Español</h3>
+            <div style="padding: 1.5rem;">
+              <p>1. AnimeGT adapta la fuente de anime que hayas seleccionado y se encargara de conseguir sus animes y servidores.</p>
+              <p>2. Puedes cambiar la fuente de anime a traves del icono del mundo en la pagina principal.</p>
+              <p>3. Si cambias la fuente de anime los animes que hayas agregado a tus favoritos con tu anterior funete no cambiaran, las letras que aparecen encima del titulo en tus favoritos indican la fuente.</p>
+              <p>4. Cada fuente tiene sus propios animes & servidores, si no encuentras un anime puedes probar cambiando la fuente y buscandolo otra vez. Si aun asi no lo encuentras prueba usando su nombre japnoes.</p>
+              <p>5. Si la app no busca o muestra nada significa que la fuente actual que tienes seleccionada no esta disponible, usa las instrucciones que acabas de leer para cambiar la fuente!</p>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section id="second2">
+      <div class="holder row">
+        <div class="col-md-4 a">
+            <a href="https://discord.gg/9FqKC6r" class="btn btn-dark"><i class="fab fa-discord"></i> Discord</a>
+        </div>
+        <div class="col-md-4 a">
+            <a href="https://testflight.apple.com/join/TY3kBvRh" class="btn btn-dark">MangaGT</a>
+        </div>
+        <div class="col-md-4 a">
+            <a href="https://www.youtube.com/channel/UCvQxzanh1CdS11ZmOExAVcw/videos?view_as=subscriber" class="btn btn-dark"><i class="fab fa-youtube"></i> Youtube</a>
+        </div>
+      </div>
+    </section>
+  <section id="second">
+    <div class="holder row">
+      <div class="col-md-4 a">
+          <a href="https://discord.gg/9FqKC6r" class="btn btn-dark"><i class="fab fa-discord"></i> Discord</a>
+      </div>
+      <div class="col-md-4 a">
+          <a href="https://testflight.apple.com/join/TY3kBvRh" class="btn btn-dark">MangaGT</a>
+      </div>
+      <div class="col-md-4 a">
+          <a href="https://www.youtube.com/channel/UCvQxzanh1CdS11ZmOExAVcw/videos?view_as=subscriber" class="btn btn-dark"><i class="fab fa-youtube"></i> Youtube</a>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+  $(".img-press").hide();
+  $(".0").show();
+  $("#lel").show();
+  var index = 0;
+  window.setInterval(function() {
+    console.log(index)
+    if (index == 4 ) {
+      $("." + (4)).fadeOut();
+      index =0;
+    }
+    $("." + (index + 1)).fadeIn();
+    $("." + index).fadeOut();
+    index++;
+    console.log('done')
+  }, 5000);
+</script>
+</body>
+</html>
